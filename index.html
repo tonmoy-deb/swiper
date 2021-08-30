@@ -25,11 +25,23 @@
                 background-color: #fcdb00;
                 text-align: center;
                 cursor: grab;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+
+            .text {
+                user-select: none;
+                -moz-user-select: none;
+                -webkit-user-select: none;
             }
         </style>
     </head>
     <body>
-        <div class="container"></div>
+        <div class="container">
+            <h2 class="text">Swipe Position</h2>
+        </div>
 
         <script src="./app.js"></script>
     </body>

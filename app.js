@@ -1,4 +1,5 @@
 const container = document.querySelector('.container');
+const text = document.querySelector('.text');
 
 let swipeEnabled = false;
 let swipeStartAt = 0;
@@ -9,11 +10,11 @@ let swipeDistance = 100;
 // FUNCTIONS
 
 const rightToLeft = () => {
-    alert("right to left")
+    text.innerHTML = "right to left";
 }
 
 const leftToRight = () => {
-    alert("left to right")
+    text.innerHTML = "left to right";
 }
 
 const swipeStart = (e) => {
