@@ -8,11 +8,11 @@ let swipeEndAt = 0;
 // FUNCTIONS
 
 const swipeToLeft = () => {
-    console.log("swipe to left")
+    alert("swipe to left")
 }
 
 const swipeToRight = () => {
-    console.log("swipe to right")
+    alert("swipe to right")
 }
 
 const swipeStart = (e) => {
