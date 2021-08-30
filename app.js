@@ -1,9 +1,12 @@
 const container = document.querySelector('.container');
 const text = document.querySelector('.text');
 
+
 let swipeEnabled = false;
+//  SWIPE POSITIONS
 let swipeStartAt = 0;
 let swipeEndAt = 0;
+//  SET HOW MUCH YOU WANT TO SWIPE
 let swipeDistance = 100;
 
 
